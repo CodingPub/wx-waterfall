@@ -1,5 +1,4 @@
 <!--index.wxml-->
-
 <scroll-view scroll-y="true" class="waterfall_container" style="height:{{scrollH}}px" bindscrolltolower="loadData" bindscroll="onScroll">
     <template wx:for="{{cols}}" wx:key="col_{{index}}" is="column" data="{{col_list: item, col_index: index}}" />
 </scroll-view>
