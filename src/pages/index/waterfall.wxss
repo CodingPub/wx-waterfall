@@ -1,0 +1,19 @@
+.waterfall_container {
+    float: left;
+    padding: 4px;
+}
+
+.img_column {
+    float: left;
+    padding-right: 4px;
+}
+
+.img_column: last {
+    padding-right: 0px;
+}
+
+.img_cell {
+    background-color: #ffffff;
+    display: block;
+    margin-bottom: 4px; 
+}

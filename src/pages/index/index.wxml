@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<import src="waterfall.wxml"/>
+<template is="waterfall" data="{{scrollH, cols}}" />

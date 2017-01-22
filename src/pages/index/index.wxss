@@ -1,0 +1,4 @@
+/**index.wxss**/
+
+@import "./waterfall.wxss";
+
